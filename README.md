@@ -2,25 +2,25 @@
 
 <br/>
 
-### ✨ 결과물
+## ✨ 결과물
 
 -
 
 <br/>
 
-### 🛠 사용 기술
+## 🛠 사용 기술
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=Bootstrap&logoColor=white"> <img src="https://img.shields.io/badge/Javascript-E7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black">
 
 <br/>
 
-### 📅 작업 기간
+## 📅 작업 기간
 
 - 2022.10.27. ~ 2022.11.10.
 
 <br/>
 
-### 🧾 구현 사항
+## 🧾 구현 사항
 
 #### HTML, CSS
 
@@ -40,16 +40,16 @@
 
 <br/>
 
-### ✔ 요구사항
+## ✔ 요구사항
 
-#### :exclamation: 필수
+### :exclamation: 필수
 
 - [x] 영화 제목으로 검색 가능하고 검색된 결과의 영화 목록이 출력돼야 합니다.
 - [x] jQuery, React, Vue 등 JS 라이브러리와 프레임워크는 사용하지 않아야 합니다.
 - [x] 스타일(CSS) 라이브러리나 프레임워크 사용은 자유입니다.
 - [x] 실제 서비스로 배포하고 접근 가능한 링크를 추가해야 합니다.
 
-#### :grey_question: 선택
+### :grey_question: 선택
 
 - [x] 한 번의 검색으로 영화 목록이 20개 이상 검색되도록 만들어보세요.
 - [x] 영화 개봉연도로 검색할 수 있도록 만들어보세요.
@@ -64,7 +64,7 @@
 
 <br/>
 
-### ⏳ 어려웠던 부분 / 아쉬운 점
+## ⏳ 어려웠던 부분 / 아쉬운 점
 
 - 비동기에 대한 이해가 부족해 async await 를 잘 활용하지 못한 것 같아 아쉬웠습니다.
 - hashchange 로 매 화면마다 초기화를 진행하고 다르게 랜더링을 해줘야 해서 많은 시간을 할애했습니다.
@@ -73,7 +73,7 @@
 
 <br/>
 
-### 🙏🏻 피드백을 받고 싶은 부분
+## 🙏🏻 피드백을 받고 싶은 부분
 
 1. 모듈화를 하지 못해 코드가 전체적으로 중복되거나 때에 맞지 않는 코드가 많습니다. 모듈화를 어떤 용도로 구분하고, 어떤 구조로 만들어야 에러가 적을지 궁금합니다.
 1. 예를 들어 marvel 을 검색한 후 영화를 하나 클릭하여 상세 정보 페이지로 넘어가고 다시 뒤로 가면 marvel 을 검색한 화면이 나오도록 하고 싶습니다. 어떻게 구현을 해야할지 궁금합니다.
