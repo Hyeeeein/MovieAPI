@@ -109,6 +109,7 @@
   // 상세정보
   window.addEventListener("hashchange", () => {
     const hashValue = location.hash.slice(1);
+    console.log(hashValue);
     if (hashValue === "") {
       renderSearch();
       mainTxt.classList.remove("txt--none");
@@ -238,7 +239,7 @@
       const movieEl = document.createElement("div");
       movieEl.classList.add("movie");
       movieEl.innerHTML = /* html */ `
-        <a href='/#${movie.imdbID}' style='background-image: url(${
+        <a href='/MovieAPI/#${movie.imdbID}' style='background-image: url(${
         movie.Poster === "N/A" ? "./img/product_empty.png" : movie.Poster
       })'>
           <div class='movie__txt'>
