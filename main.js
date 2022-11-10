@@ -239,7 +239,7 @@
       movieEl.classList.add("movie");
       movieEl.innerHTML = /* html */ `
         <a href='/#${movie.imdbID}' style='background-image: url(${
-        movie.Poster === "N/A" ? "img/product_empty.png" : movie.Poster
+        movie.Poster === "N/A" ? "./img/product_empty.png" : movie.Poster
       })'>
           <div class='movie__txt'>
             <p>${movie.Year}</p>
@@ -257,6 +257,7 @@
 
   // 상세 정보 가져오는 function
   async function renderMovieInfo(inputID) {
+    section.classList.remove("section--none");
     infoWrap.classList.remove("wrap--none");
     infoLoading.classList.add("load--show");
     forms.classList.add("forms--hidden");
@@ -281,7 +282,7 @@
     for (let i = 0; i < Info.Ratings.length; i++) {
       ratingList += /* html */ `
         <p>
-          <img src="img/${Info.Ratings[i].Source}.png" alt="${Info.Ratings[i].Source}">
+          <img src="./img/${Info.Ratings[i].Source}.png" alt="${Info.Ratings[i].Source}">
           <span>${Info.Ratings[i].Value}</span>
         </p>
         `;
@@ -296,14 +297,14 @@
         <div class="main-poster">
           <img src="${
             Info.Poster == "N/A"
-              ? "img/product_empty.png"
+              ? "./img/product_empty.png"
               : Info.Poster.replace("SX300", "SX2000")
           }" alt="poster" />
         </div>
         <div class='main-info'>
           <img class="info__poster" src="${
             Info.Poster == "N/A"
-              ? "img/product_empty.png"
+              ? "./img/product_empty.png"
               : Info.Poster.replace("SX300", "SX700")
           }" alt="poster" />
           <div class="info__txts">
