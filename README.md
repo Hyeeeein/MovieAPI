@@ -4,7 +4,13 @@
 
 ## ✨ 결과물
 
--
+#### 배포 주소
+
+- https://hyeeeein.github.io/MovieAPI/
+
+#### 코드
+
+- https://github.com/Hyeeeein/KDT3-M2/tree/KimHyein
 
 <br/>
 
