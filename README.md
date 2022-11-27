@@ -2,31 +2,27 @@
 
 <br/>
 
-## ✨ 결과물
+#### 1차 피드백 : https://github.com/KDT1-FE/KDT3-M2/pull/4
 
-#### 배포 주소
+#### 배포 주소 : https://hyeeeein.github.io/MovieAPI/
 
-- https://hyeeeein.github.io/MovieAPI/
-
-#### 코드
-
-- https://github.com/Hyeeeein/KDT3-M2/tree/KimHyein
-
-<br/>
-
-## 🛠 사용 기술
-
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=Bootstrap&logoColor=white"> <img src="https://img.shields.io/badge/Javascript-E7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black">
+#### 수정한 코드 : https://github.com/Hyeeeein/KDT3-M2/tree/KimHyein2
 
 <br/>
 
 ## 📅 작업 기간
 
-- 2022.10.27. ~ 2022.11.10.
+- 2022.10.23 ~ 2022.11.27
 
 <br/>
 
-## 🧾 주요 구현 사항
+## ✔ 수정한 부분
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=HTML5&logoColor=white"> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=CSS3&logoColor=white"> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=Bootstrap&logoColor=white"> <img src="https://img.shields.io/badge/Javascript-E7DF1E?style=for-the-badge&logo=JavaScript&logoColor=black">
+
+<br/>
+
+## ⏳ 어려웠던 부분 / 아쉬운 점
 
 #### HTML, CSS
 
@@ -46,7 +42,7 @@
 
 <br/>
 
-## ✔ 요구사항
+## 🙏🏻 피드백을 받고 싶은 부분
 
 ### :exclamation: 필수
 

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Movie Search</title>
+    <title>OMDb</title>
     <!-- bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
@@ -24,118 +24,31 @@
       href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css"
     />
     <link rel="stylesheet" href="style.css" />
-    <script defer src="main.js"></script>
+    <script defer type="module" src="main.js"></script>
 
     <link rel="icon" href="favicon.png" />
   </head>
   <body>
     <header>
-      <h1><a href="/MovieAPI/" class="logo" title="메인으로 가기">OMDb</a></h1>
+      <h1><a href="/MovieAPI/#" class="logo" title="메인으로 가기">OMDb</a></h1>
       <div class="head__btns">
-        <button>
-          <a href="/MovieAPI/#search" title="검색">search</a>
-        </button>
+        <button><a href="/MovieAPI/#search" title="검색">search</a></button>
         <button>
           <a href="/MovieAPI/#movie" title="영화 상세정보">movie</a>
         </button>
-        <button>
-          <a href="/MovieAPI/#about" title="제작자 정보">about</a>
-        </button>
+        <button><a href="/MovieAPI/#about" title="제작자 정보">about</a></button>
       </div>
     </header>
 
     <main>
-      <section>
-        <div class="main__txt">
-          <h2>
-            OMDb API <br />
-            THE OPEN <br />
-            MOVIE DATABASE
-          </h2>
-          <p>
-            The OMDb API is a RESTful web service to obtain movie information,
-            all content and images on the site are contributed and maintained by
-            our users. If you find this service useful, please consider making a
-            one-time donation or become a patron.
-          </p>
-        </div>
-        <!-- search area, select movie count, select year -->
-        <div class="forms">
-          <form>
-            <label for="search-form">
-              <input
-                class="search-form"
-                id="search-form"
-                type="text"
-                placeholder="Search for Movies"
-              />
-            </label>
-          </form>
-
-          <div class="select">
-            <select class="type-form">
-              <option value="movie">movie</option>
-              <option value="series">series</option>
-              <option value="episode">episode</option>
-            </select>
-
-            <select class="count-form">
-              <option value="1">10</option>
-              <option value="2">20</option>
-              <option value="3">30</option>
-            </select>
-
-            <select class="year-form">
-              <option value="">All Years</option>
-            </select>
-          </div>
-
-          <button class="search-btn">검색</button>
-        </div>
-
-        <div class="movies-wrap">
-          <div class="movies--none">Search for the movie title!</div>
-          <div class="movies--loading">
-            <div class="spinner-border" role="status">
-              <span class="visually-hidden">Loading...</span>
-            </div>
-          </div>
-          <div class="movies">
-            <!-- Movie items -->
-          </div>
-        </div>
-
-        <div class="more-btn-wrap">
-          <!-- more button -->
-          <button class="more-btn btn-primary" type="button" disabled>
-            <span
-              class="spinner-border spinner-border-sm"
-              role="status"
-              aria-hidden="true"
-            ></span>
-            MORE
-          </button>
-        </div>
-
-        <div class="info-wrap">
-          <div class="info--loading">
-            <div class="spinner-border" role="status">
-              <span class="visually-hidden">Loading...</span>
-            </div>
-          </div>
-          <div class="info-list">
-            <!-- Movie Infomaition -->
-          </div>
-        </div>
-      </section>
-      <div class="about">
-        <!-- about -->
-      </div>
+      <!-- main 이 app 역할 -->
     </main>
 
     <footer>
       <a href="https://www.omdbapi.com/" target="_blank">OMDb API</a>
-      <a href="https://github.com/Hyeeeein/MovieAPI" target="_blank"
+      <a
+        href="https://github.com/Hyeeeein/KDT3-M2/tree/KimHyein"
+        target="_blank"
         >(C)2022 KimHyein</a
       >
     </footer>
